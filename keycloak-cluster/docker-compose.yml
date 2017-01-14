@@ -21,7 +21,7 @@ keycloak1:
   image: jboss/keycloak-ha-postgres
   environment:
    - KEYCLOAK_USER=admin
-   - KEYCLOAK_PASSWORD=jboss@123
+   - KEYCLOAK_PASSWORD=CHANGE@ME
    - POSTGRES_DATABASE=keycloak
    - POSTGRES_USER=keycloak
    - POSTGRES_PASSWORD=password
@@ -38,7 +38,7 @@ keycloak2:
   image: jboss/keycloak-ha-postgres
   environment:
    - KEYCLOAK_USER=admin
-   - KEYCLOAK_PASSWORD=jboss@123
+   - KEYCLOAK_PASSWORD=CHANGE@ME
    - POSTGRES_DATABASE=keycloak
    - POSTGRES_USER=keycloak
    - POSTGRES_PASSWORD=password
